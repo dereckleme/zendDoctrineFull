@@ -1,0 +1,11 @@
+<ul>
+  <?php foreach ($this->teste as $li): ?>
+  <li><?php echo $li->getNome(); ?>
+  	  <ul>
+  	  	<?php foreach($li->getSubcategorias() as $subcategorias): ?>
+  	  	<li><?php echo $subcategorias->getNome(); ?></li>
+  	  	<?php endforeach; ?>
+  	  </ul>
+  </li>
+  <?php endforeach; ?>
+</ul>
