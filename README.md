@@ -1,3 +1,4 @@
+<h1>Zend Framework 2 já configurado com doctrine.</h1>
 Atençao lembre-se de configurar sua base dados localizada na pasta
 
 Config/autoload/doctrine.local.php
